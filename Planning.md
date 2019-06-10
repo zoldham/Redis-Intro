@@ -1,6 +1,6 @@
 # Todo:
 
-## Presentation Portion
+## Presentation Portion:
 Prepare a presentation that kicks off the session
 ### What is Redis?
 ### What benefits can it offer?
@@ -8,7 +8,7 @@ Prepare a presentation that kicks off the session
 ### Performance Statistics
 ### Instructions on cloning the repo for the hands-on tutorial
 
-## Hands-on Coding Portion
+## Hands-on Coding Portion:
 Prepare the repo to faucilitate a lightweight, hands-on demo
 ### Decide which software we will use (Visual Studio? VS Code? Something else?)
 ### Create starter code
@@ -16,7 +16,16 @@ Prepare the repo to faucilitate a lightweight, hands-on demo
 ### Create a document for our benefit that we will use to help walk them through the process
 ### Have a working example that we can show them
 
-## Wrap Up Portion
+## Wrap Up Portion:
 Wrap up the session
 ### Maybe prepare for a quesion and answer?
 ### Be ready to debug potential issue
+
+
+# Completed:
+
+## Presentation Portion:
+
+## Hands-on Coding Portion:
+
+## Wrapo Up Portion:
