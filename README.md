@@ -8,7 +8,7 @@ All the information you need for the Redis learning session
 ### Notes
 * Redis is pronounced 'Red-iss'
 
-### If you want to try it out beforehand
+### If you want to play with your own Redis instance
 * Have the Windows Subsystem for Linux enabled and the Ubuntu terminal installed
 * Run the following to install Redis:
     ```
