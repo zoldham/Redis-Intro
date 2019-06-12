@@ -7,8 +7,9 @@ All the information you need for the Redis learning session
 
 ### Notes
 * Redis is pronounced 'Red-iss'
+* [THIS](https://github.com/StackExchange/StackExchange.Redis) is the client we will be using
 
-### If you want to try it out beforehand
+### If you want to play with your own Redis instance
 * Have the Windows Subsystem for Linux enabled and the Ubuntu terminal installed
 * Run the following to install Redis:
     ```
@@ -22,4 +23,3 @@ All the information you need for the Redis learning session
     ./src/redis-server redis.conf
     ```
 * The complete documentation is [HERE](https://redis.io/documentation)
-* [THIS](https://github.com/StackExchange/StackExchange.Redis) is the client we will be using
