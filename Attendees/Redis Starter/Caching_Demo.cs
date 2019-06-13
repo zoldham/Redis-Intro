@@ -30,10 +30,11 @@ namespace Redis_Starter
                 "   deviceById(deviceId: 1) {" +
                 "       description" +
                 "   }" +
-                "}";
+                "}" +
+                "# Your Name Here";
 
             redisDB.KeyDelete(query);
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 20; i++)
             {
                 stopwatch.Restart();
                 do_query_with_caching(query, redisDB, graphQL);
