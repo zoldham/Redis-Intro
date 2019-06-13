@@ -47,28 +47,34 @@ namespace Redis_Starter
         {
 
             // Try to get the query result from redis
+            string jsonString = redisDB.StringGet(query);
 
             // Check if a result was returned (the query IS in the cache)
-            if ()  // If the query IS NOT in the cache
+            if (String.IsNullOrEmpty(jsonString))  // If the query IS NOT in the cache
             {
 
                 // Issue graphQL query
+                var graphQLResponse = graphQL.PostQueryAsync(query).GetAwaiter().GetResult();
 
                 // Convert graphQL response to JSON string
+                jsonString = graphQLResponse.Data.ToString();
 
                 // Conditionally store result in Redis cache
-                if ()
+                if (jsonString.Length * sizeof(char) < 1024 * 1024 * 10)
                 {
 
                     // Add to cache
+                    redisDB.StringSetAsync(query, jsonString);
                 }
 
                 // Return JObject
+                return graphQLResponse.Data;
 
             } else      // The query IS in the cache
             {
 
                 // Parse JSON string into JObject and return
+                return JsonConvert.DeserializeObject<dynamic>(jsonString);
             }
         }
     }
