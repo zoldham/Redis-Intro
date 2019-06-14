@@ -8,6 +8,7 @@ All the information you need for the Redis learning session
 ### Notes
 * Redis is pronounced 'Red-iss'
 * [THIS](https://github.com/StackExchange/StackExchange.Redis) is the client we will be using
+* [THIS](https://marketplace.visualstudio.com/items?itemName=MohsenKokabi.RedisExplorer-13503) is a Visual Studio extension that lets you investigate a Redis server with a GUI, if you so desire
 
 ### If you want to play with your own Redis instance
 * Have the Windows Subsystem for Linux enabled and the Ubuntu terminal installed
