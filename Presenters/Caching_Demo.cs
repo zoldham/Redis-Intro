@@ -43,7 +43,7 @@ namespace Redis_Starter
             }
         }
 
-        static dynamic do_query_with_caching(string query, IDatabase redisDB, GraphQLClient graphQL)
+        static unsafe dynamic do_query_with_caching(string query, IDatabase redisDB, GraphQLClient graphQL)
         {
 
             // Try to get the query result from redis
