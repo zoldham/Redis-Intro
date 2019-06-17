@@ -22,10 +22,7 @@ namespace Redis_Starter
             // GraphQL Connection
             GraphQLClient graphQL = new GraphQLClient("https://globaldeviceservice.dev.koreone/api/v1");
 
-            // Stopwatch
             MicroLibrary.MicroStopwatch stopwatch = new MicroLibrary.MicroStopwatch();
-
-            // Time the query 10 times
             string query = "query {" +
                 "   deviceById(deviceId: 1) {" +
                 "       description" +
@@ -33,6 +30,7 @@ namespace Redis_Starter
                 "}" +
                 "# Your Name Here";
 
+            // Time the query
             redisDB.KeyDelete(query);
             for (int i = 0; i < 20; i++)
             {
