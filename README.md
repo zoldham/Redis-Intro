@@ -15,7 +15,7 @@ All the information you need for the Redis learning session
 * Have the Windows Subsystem for Linux enabled and the Ubuntu terminal installed
 * Run the following to install Redis:
     ```
-    wget hhttp://download.redis.io/releases/redis-5.0.5.tar.gz
+    wget http://download.redis.io/releases/redis-5.0.5.tar.gz
     tar xzf redis-5.0.5.tar.gz
     cd redis-5.0.5
     make
