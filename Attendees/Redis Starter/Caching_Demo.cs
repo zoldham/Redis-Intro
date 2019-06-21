@@ -43,7 +43,6 @@ namespace Redis_Starter
 
         static dynamic do_query_with_caching(string query, IDatabase redisDB, GraphQLClient graphQL)
         {
-
             // Try to get the query result from redis
 
             // Check if a result was returned (the query IS in the cache)
