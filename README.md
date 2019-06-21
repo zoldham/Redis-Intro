@@ -3,6 +3,7 @@ All the information you need for the Redis learning session
 
 ### Prerequisites
 * Have Visual Studio Installed with C# support
+* Install the 'Redis Explorer' extension by Mohsen Kokabi
 * Have this repo cloned on your machine
 
 ### Notes
